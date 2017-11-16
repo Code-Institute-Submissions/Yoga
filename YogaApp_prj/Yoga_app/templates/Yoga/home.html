@@ -1,6 +1,14 @@
-{% extends "Yoga/base.html" %}
-{% block page_content %}
-    {{ a_variable }}
-    <br>
-    {{ another_variable }}
-{% endblock %}
+<html>
+<head></head>
+<body>
+    <h1>Contact Details</h1>
+    {% block content %}
+        {% for contact in contact_list %}
+            <p><strong>First Name: </strong>{{ contact.first_name }}
+            <p><strong>Last Name: </strong>{{ contact.last_name }}
+            <p><strong>Email: </strong>{{ contact.email }}
+        <hr>
+        {% endfor %}
+    {% endblock %}
+</body>
+</html>
