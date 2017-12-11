@@ -3,7 +3,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Liverpool Yoga Instructor</title>
+        <title>Welcome to our community of Yoga instructors, studios and yogis/yoginis!</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -17,7 +17,7 @@
 <div id="masthead">
     <div class="container">
         <div class="row">
-                <h1> Liverpool Yoga
+                <h1>Liverpool Yoga Collective
                     <p id="logo" class="lead">By Kate  Billington</p>
                 </h1>
         </div>
@@ -25,13 +25,17 @@
 </div>
 <div class="masthead">
        <ul class="nav nav-pills pull-right">
-           <li><a href="#">Home</a></li>
-           <li><a href="#">Blog</a></li>
-           <li><a href="#">Timetable</a></li>
-           <li><a href="#">Contact</a></li>
-           <li><a href="{% url 'register' %}">Register</a></li>
-           <li><a href="{% url 'login' %}">Log In</a></li>
-           <li><a href="{% url 'logout' %}">Log Out</a></li>
+           <li><a href="{% url 'home' %}">Home</a></li>
+           <li><a href="{% url 'blog' %}">Blog</a></li>
+           <li><a href="{% url 'timetable' %}">Timetable</a></li>
+           <li><a href="{% url 'prices' %}">LYC Card</a></li>
+           {% if user.is_authenticated %}
+                <li><a href="{% url 'profile' %}">Profile</a></li>
+                <li><a href="{% url 'logout' %}">Log Out</a></li>
+           {% else %}
+                <li><a href="{% url 'register' %}">Register</a></li>
+                <li><a href="{% url 'login' %}">Log In</a></li>
+           {% endif %}
        </ul>
        <h1><span class="fui-settings-16 muted">Pose of the Week Yoga Blog</span></h1>
    </div>

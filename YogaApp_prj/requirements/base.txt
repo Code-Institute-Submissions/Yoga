@@ -1,0 +1,11 @@
+arrow==0.7.0
+beautifulsoup4==4.4.1
+Django==1.11.4
+django-disqus==0.5
+djangorestframework==3.3
+django-forms-bootstrap==3.1.0
+Pillow==3.1.1
+python-dateutil==2.4.2
+stripe
+git+https://github.com/<your Github Username>/reusable-blog-app.git
+gunicorn==19.4

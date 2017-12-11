@@ -6,29 +6,23 @@ from Yoga_app.models import Contact
 from Yoga_app.models import Post
 from Yoga_app.forms import BlogPostForm
 
-def say_yoga(request):
-	position = 'Downward Dog'
-	html = '<html><body><h1>Yoga %s!</h1></body></html>' % position
-	return HttpResponse(html)
+def get_index(request):
+    return render(request, 'Yoga/templates/index.html')
 
-def get_now(request):
-	now = datetime.datetime.now()
-	return render(request, "Yoga/base.html", {"current_date": now})
-
-def get_contacts(request):
-    return render(request, "Yoga/home.html",
-                  {'contact_list': Contact.objects.all()})
+def go_home(request):
+    return render(request, "Yoga/home.html")
 
 def timetable_page(request):
-    return render(request, "Yoga/timetable.html",
-                  {"b_variable": "Class Timetable",
-                   "other_variable": "Winter class timetable, for private lessons, please visit the contact page."})
+    return render(request, "Yoga/templates/timetable.html")
+
+def price_list(request):
+    return render(request, "Yoga/templates/prices.html", )
 
 def post_list(request):
 
     posts = Post.objects.filter(published_date__lte=timezone.now()
         ).order_by('-published_date')
-    return render(request, "Yoga/templates/poseblog.html", {'posts': posts})
+    return render(request, "Yoga/templates/blog.html", {'posts': posts})
 
 def post_detail(request, id):
 

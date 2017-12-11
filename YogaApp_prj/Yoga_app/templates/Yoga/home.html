@@ -1,14 +1,30 @@
-<html>
-<head></head>
-<body>
-    <h1>Contact Details</h1>
-    {% block content %}
-        {% for contact in contact_list %}
-            <p><strong>First Name: </strong>{{ contact.first_name }}
-            <p><strong>Last Name: </strong>{{ contact.last_name }}
-            <p><strong>Email: </strong>{{ contact.email }}
-        <hr>
-        {% endfor %}
-    {% endblock %}
-</body>
-</html>
+{% extends "Yoga/base.html" %}
+{% load bootstrap_tags %}
+{% block content %}
+
+    <div class="jumbotron text-center">
+      <h1>Liverpool Yoga Collective</h1>
+      <p>Welcome to our community of yoga instructors, students and studios.</p>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Pose of the Week Blog</h3>
+          <p>Each week one of our regular contributors will provide a tutorial on our selected post of the week.</p>
+          <p>Head to the blog page now to try out the poses at home or to use the tips to improve your practice in class.</p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Register for a LYC profile and card</h3>
+          <p>Head to the profile page and register for our Liverpool Yoga discount card and receive our monthly newsletter.</p>
+          <p>Registration to the LYC gives you discount at all of the yoga studios on the card, access to retreats and events and special offers for private lessons with our instructors.</p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Classes</h3>
+          <p>Head to our timetable page to view this month's class listings.</p>
+          <p>Each month we will put up a timetable of classes from our featured yoga instructors which will all have a discounted price of £4 for the month.</p>
+        </div>
+      </div>
+    </div>
+
+{% endblock %}

@@ -22,7 +22,7 @@ def register(request, e=None):
             try:
                 customer = stripe.Customer.create(
                     email=form.cleaned_data['email'],
-                    card=form.cleaned_data['stripe_id'],  # this is currently the card token/id
+                    card=form.cleaned_data['stripe_id'],
                     plan='REG_MONTHLY',
                 )
 
