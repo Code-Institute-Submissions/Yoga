@@ -1,29 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42798e7c-6d53-4760-877b-09cbc5e75645" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YogaApp_prj/Yoga_app/templates/Yoga/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YogaApp_prj/Yoga_app/templates/Yoga/templates/prices.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YogaApp_prj/requirements.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YogaApp_prj/requirements/base.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YogaApp_prj/requirements/dev.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YogaApp_prj/requirements/staging.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YogaApp_prj/static/js/stripe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings/base.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings/dev.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings/staging.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YogaApp_prj/YogaApp_prj/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YogaApp_prj/db.sqlite3" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/YogaApp_prj/Yoga_app/templates/Yoga/timetable.html" afterPath="$PROJECT_DIR$/YogaApp_prj/Yoga_app/templates/Yoga/templates/timetable.html" />
+    <list default="true" id="42798e7c-6d53-4760-877b-09cbc5e75645" name="Default" comment="New commit, updated files">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/YogaApp_prj/YogaApp_prj/urls.py" afterPath="$PROJECT_DIR$/YogaApp_prj/YogaApp_prj/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/YogaApp_prj/Yoga_app/models.py" afterPath="$PROJECT_DIR$/YogaApp_prj/Yoga_app/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/YogaApp_prj/Yoga_app/templates/Yoga/base.html" afterPath="$PROJECT_DIR$/YogaApp_prj/Yoga_app/templates/Yoga/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/YogaApp_prj/Yoga_app/templates/Yoga/home.html" afterPath="$PROJECT_DIR$/YogaApp_prj/Yoga_app/templates/Yoga/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/YogaApp_prj/Yoga_app/views.py" afterPath="$PROJECT_DIR$/YogaApp_prj/Yoga_app/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/YogaApp_prj/accounts/views.py" afterPath="$PROJECT_DIR$/YogaApp_prj/accounts/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/pip-selfcheck.json" afterPath="$PROJECT_DIR$/env/pip-selfcheck.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/YogaApp_prj/requirements/base.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -574,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511608804611</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="New commit, updated files">
+      <created>1513026244153</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1513026244153</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -584,7 +570,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -629,6 +615,24 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -959,7 +963,7 @@
     <entry file="file://$PROJECT_DIR$/YogaApp_prj/requirements/base.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding />
         </state>
       </provider>
