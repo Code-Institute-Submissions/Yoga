@@ -7,5 +7,5 @@ django-forms-bootstrap==3.1.0
 Pillow==3.1.1
 python-dateutil==2.4.2
 stripe
-git+https://github.com/<your Github Username>/reusable-blog-app.git
+git+https://github.com/KateBillington/Yoga.git
 gunicorn==19.4
