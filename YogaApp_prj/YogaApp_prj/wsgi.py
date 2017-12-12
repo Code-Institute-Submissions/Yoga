@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "YogaApp_prj.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "settings.staging")
 
 application = get_wsgi_application()

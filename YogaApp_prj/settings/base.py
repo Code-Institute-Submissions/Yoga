@@ -18,9 +18,7 @@ INSTALLED_APPS = [
     'django.contrib.flatpages',
     'django_forms_bootstrap',
     'Yoga_app',
-    'django.contrib.sites',
     'disqus',
-    'django_forms_bootstrap',
     'accounts',
 ]
 

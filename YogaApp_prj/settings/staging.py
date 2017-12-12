@@ -1,4 +1,4 @@
-from YogaApp_prj.settings.base import *
+from settings.base import *
 
 DEBUG = False
 
