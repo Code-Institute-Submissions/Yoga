@@ -13,8 +13,8 @@ DATABASES = {
 STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE', 'pk_test_1RYq3AmEgxhKZhs2f0mR4Je8')
 STRIPE_SECRET = os.getenv('STRIPE_SECRET', 'sk_test_t2XoBGjOb64Wru0HdQFmFJlb')
 
-SITE_URL = 'https://stream1-project.herokuapp.com'
-ALLOWED_HOSTS.append('stream1-project.herokuapp.com')
+SITE_URL = 'https://stream3-project.herokuapp.com'
+ALLOWED_HOSTS.append('stream3-project.herokuapp.com')
 
 LOGGING = {
     'version': 1,
