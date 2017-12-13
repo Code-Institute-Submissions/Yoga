@@ -1,0 +1,1 @@
+web: gunicorn YogaApp_prj.wsgi:application
